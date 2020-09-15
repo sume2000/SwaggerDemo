@@ -1,0 +1,13 @@
+﻿.info {
+    border: solid 2px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+    .info .description {
+        font-weight: bold;
+    }
+
+    .info .info__tos a {
+        font-style: italic;
+    }
