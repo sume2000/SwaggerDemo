@@ -51,12 +51,6 @@ namespace SwaggerDemo
                 });
 
                 // set the XML comments path for swagger
-                /* the following lines must be set in the project file (.csproj) to let VS generate the document:
-                    <PropertyGroup>
-                        <GenerateDocumentationFile>true</GenerateDocumentationFile>
-                        <NoWarn>$(NoWarn);1591</NoWarn>
-                    </PropertyGroup>
-                */
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml");
                 x.IncludeXmlComments(xmlPath, true);
             });
