@@ -77,7 +77,7 @@ namespace SwaggerDemo
                 x.SwaggerEndpoint($"/swagger/{SwaggerDocuVersion}/swagger.json", SwaggerDocuTitle);
                 // optionally remove route prefix to show swagger UI as the app's root page
                 x.RoutePrefix = "";
-                // optionally add custom CSS styles for swagger UI (must be added as Embedded Resource and referenced as [projectname].[stylesheet])
+                // optionally add custom CSS styles for swagger UI
                 x.InjectStylesheet("/customswagger.css");
             });
 
