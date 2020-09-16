@@ -10,4 +10,4 @@ cd openapi-generator
 mvn clean package
 
 # generate ASPNET Core client from yaml
-java -jar modules\openapi-generator-cli\target\openapi-generator-cli.jar generate -i c:\temp\swaggerdemo.yaml -g aspnetcore -o c:\temp\swaggerdemo_client
+java -jar modules\openapi-generator-cli\target\openapi-generator-cli.jar generate -i c:\temp\swaggerdemo.yaml -g csharp -o c:\temp\swaggerdemo_client
